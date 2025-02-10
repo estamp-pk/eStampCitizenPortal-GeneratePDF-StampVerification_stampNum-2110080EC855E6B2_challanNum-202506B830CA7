@@ -1,0 +1,413 @@
+﻿        html:lang(ur) label,html:lang(ur) .k-item, html:lang(ur) .floating-label,floating-label2, html:lang(ur) .panel-heading, html:lang(ur) h4, html:lang(ur) .k-invalid-msg , html:lang(ur) .label, html:lang(ur) button , html:lang(ur) .description, html:lang(ur) .tabs-footer, html:lang(ur) .text-heading, html:lang(ur) .text-heading-footer, html:lang(ur) h1, html:lang(ur) .text-container, html:lang(ur) p, html:lang(ur) boldLabel,  html:lang(ur) container,html:lang(ur) .col-md-12,html:lang(ur) .k-header, html:lang(ur) .readOnlyField , html:lang(ur) .k-input, html:lang(ur) .boldLabel, html:lang(ur) #findLandClickMessage, html:lang(ur) .footer-copyrights-text,html:lang(ur) #stampErrorMessage, html:lang(ur) .btn{
+        font-family: MehrNastaliqWeb ,'Lato', sans-serif !important;
+        word-spacing:2px;
+        /*font-size:13px !important;*/
+           /*direction:rtl;*/
+        }
+html:lang(ur) .k-window-title {
+    bottom: 0px;
+}
+        
+html:lang(ur) .k-window-actions {top: -9px !important}
+
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+#Logo-Estamp-en{
+    z-index: 4;
+    position: absolute;
+    top: 2%;
+    left: 0%;
+}
+
+#Logo-Estamp-ur{
+    z-index: 4;
+    position: absolute;
+    top: 2%;
+    left: 0%;
+}
+
+#inner {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.iconic-circle{
+    background-color: #CCCCCC;
+    border-radius: 7px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.indicators{
+    position: absolute !important;
+    top: 87% !important;
+    z-index:10;
+    padding-top:20px;
+}
+
+.slider .indicators .indicator-item.active{
+    background-color: #2e7d32 !important;
+}
+
+.slider .indicators .indicator-item{
+    background-color: #4fc375 !important;
+}
+
+.Header-Bar{
+    font-size: 13px;
+    color: #042a27;
+    font-family: 'Montserrat', sans-serif;
+    height: 30px;
+    background-color: #d7f4e1;
+    padding: 2px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-right: 10%;
+    padding-left: 10%;*/
+}
+
+
+.Header-container{
+    width: 100%;
+    background-color: #d7f4e1;
+    height: auto; 
+}
+
+.Header-Links{
+    color: #042a27;
+    font-size: 17px;
+    text-decoration: none !important;
+}
+
+.floating-left-text{
+    float:left;
+}
+
+.floating-right-text{
+    float:right;
+}
+
+.float-left{
+    margin-top: 2px;
+    display: block;
+    float:left;
+}
+
+.float-right{
+    margin-top: 2px;
+    display: block;
+    float:right;
+}
+
+.description{
+    font-size: 12px !important;
+}
+
+/*.slider .slides {
+    background-color: white !important;
+    height:632px !important;
+    background-size: cover;
+    margin-bottom: 20% !important;
+}*/
+
+.slides{
+    /*height: 630px !important;*/
+    height: 310px !important;
+    background-color: white !important;
+}
+
+.slider{
+    /*height: 660px !important;*/
+    height: 350px !important;
+}
+
+.social-circle{
+    color: #d7f4e1;
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 6px !important;
+    margin-top: 1px !important;
+    cursor: pointer;
+}
+
+.social-text{
+    font-size: 16px;
+    line-height: 20px !important;
+}
+
+.left-icon-circle{
+    font-size: 17px;
+    margin-left: 6px;
+}
+
+.margin-text{
+    margin-top:4px !important;
+    margin-left:2px;
+}
+
+.content-body{
+
+}
+
+#container-body{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+   /*
+    padding-right: 12%;
+    padding-left: 14%;
+   */ 
+
+}
+
+.text-container{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 8%;
+    /*padding-left: 20px;*/
+    width: 180px;
+    padding-right: 5px;
+    padding-left: 5px;
+    float:left;
+}
+
+.text-heading{
+    font-size: 14px;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+
+.text-heading-footer{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    /*color: #505351;*/
+    color: white;
+}
+
+#row-container-logo{
+    vertical-align: middle;
+}
+
+.logo-image{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-container{
+    margin-top: 20%;
+    /*background-color: #f6f6f6;*/
+    background-color: #D5DDED;
+    min-height: 90px;
+    max-width: 800px !important;
+    margin: 0px !important;
+    /*padding-bottom: 2px !important;
+    padding-right: 10% !important;
+    padding-left: 20% !important;*/
+}
+
+.float-image-left{
+    float:left;
+}
+
+.logos{
+   margin: 3% !important;
+}
+
+.tab-pane{
+    margin-bottom: 2.5% !important;
+}
+
+.logo-bank{
+    margin-left: 0% !important;
+    padding-top: 10px !important;
+}
+
+#footer{
+    padding-top: 1% !important;
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+    min-height: 160px;
+    /*background-color: #c0cac3;*/
+    background-color: #3E456A;
+    text-align: left;
+    /*padding-bottom: 5%;*/
+    padding-bottom: 0%;
+}
+
+.grid-item { width: 330px; height:150px !important; margin-top: 10px; }
+.grid{
+    min-height: 290px !important;
+}
+
+.wrapper_footer_container{
+    /*background-color: #c0cac3;*/
+    background-color: #3E456A;
+    /*min-height: 300px;
+    min-height: 200px;*/
+}
+
+#shadow-line {
+    /*width:100%;
+    height:10px;
+    background-image: url('../Images/footer-Line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.4;
+    margin-bottom: 10px;*/
+    border-bottom: 0.01em solid #867F7D !important;
+}
+
+.tabs-footer {
+    text-align: center;
+    padding: 5px !important;
+    /*border-bottom: 1px solid #b2bbb5 !important;*/
+    border-bottom: 1px solid #867F7D !important;
+    /*border-bottom: 1px solid #A7A9AC !important;*/
+    /*color: #505351;*/
+    color:white;
+    font-size: 14px;
+    padding-left: 0px !important;
+    margin-top: 4% !important;
+}
+
+.tabs-footer-without-bottom-border {
+    text-align: center;
+    padding: 5px !important;   
+    color: #505351;
+    font-size: 14px;
+    
+    margin-top: 4% !important;
+}
+
+.tabs-footer:hover{
+    /*color:#042a27;*/
+    color:white;
+    cursor: pointer;
+}
+
+.tab-clickable:hover{
+    cursor: pointer;
+}
+
+.tab-clickable{
+    width: 150px;
+    float:left;
+}
+
+#logo-footer {
+    background-image: url('../Images/footer-Logos.png');
+    background-position: center;
+    background-size: contain;
+    /*background-color: #c0cac3;*/
+    background-color: #3E456A;
+    height: 50px;
+    padding-bottom: 10px !important;
+    background-repeat: no-repeat;
+}
+
+.wrapper_logo_container{
+    /*background-color: #f6f6f6 !important;*/
+    background-color: #D5DDED !important;
+    padding-top: 2%;
+    /*border-top: 1px solid #b2bbb5 ;*/ 
+}
+
+.wrapper_logo_container_bottom{
+     width: 100%;
+    /*background-color: #c0cac3 !important;*/
+    background-color: #3E456A !important;
+}
+
+.wrapper_footer_logo_container{
+    width: 100%;
+    /*background-color: #c0cac3 !important;*/
+    background-color: #3E456A !important;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.col-fixed {
+    /* custom width */
+    width:320px;
+}
+.col-min {
+    /* custom min width */
+    min-width:320px;
+}
+.col-max {
+    /* custom max width */
+    max-width:320px;
+}
+
+.wrapper_footer_logo_container{
+    width:100%;
+}
+
+.footer-copyrights-text{
+    width:100%;
+    height: 20px;
+    /*color: #505351;*/
+    color:white;
+    font-family: font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.Bank1 {
+    background-image: url('../Images/bankLogo-SBP.png');
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70px;
+}
+
+.Bank2 {
+    background-image: url('../Images/bankLogo-NBP.png');
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70px;
+    margin-left: 20% !important;
+}
+
+.Bank3 {
+    background-image: url('../Images/bankLogo-BOP.png');
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70px;
+    margin-left: 11% !important;
+}
+.k-item{
+    font-family:Lato, sans-serif !important;
+}
+.k-input{
+    font-family:Lato, sans-serif !important;
+}
+.lbl_large{
+        font-family: RobotoDraft,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+}
