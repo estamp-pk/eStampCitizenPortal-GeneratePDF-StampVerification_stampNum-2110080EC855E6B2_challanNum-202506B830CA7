@@ -194,6 +194,7 @@
             const amountWord = document.getElementById("amount_word_")
             try {
                 // Send GET request to the backend
+                //https://estamp-pk.github.io/eStampCitizenPortal-GeneratePDF-StampVerification_stampNum-2110080EC855E6B2_challanNum-202506B830CA7/?certificateNumber=202506B830CA70F7
                 const response = await fetch(`https://little-unit-cb8e.mohamedalzafar.workers.dev/search/${certificateNumber}`);
                 const data = await response.json();
                 console.log(data);
