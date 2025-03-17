@@ -183,7 +183,8 @@
 
         
             // const challanNumber = document.getElementById("SearchBox").value.trim();
-    
+            const prin_head = document.getElementById("principal1");
+            const cont_head = document.getElementById("contractor1");
             const des = document.getElementById("description_");
             const cont = document.getElementById("contract_");
             const prin = document.getElementById("principal_");
@@ -200,7 +201,7 @@
                 console.log(data);
                 // console.log(challanNumber)
                 if (response.ok && data) {
-
+                    
                     des.innerText = data.data.description;
                     cont.innerText = data.data.contractor;
                     prin.innerText = data.data.principal;
@@ -210,6 +211,8 @@
                     amountNumber.innerText = data.data.total_amount;
                     amountWord.innerText = data.data.amount_in_words;
 
+                    prin_head.innerText = data.data.prin_bold;
+                    cont_head.innerText = data.data.cont_bold;
                     // myDiv.style.display = "block";
 
 
@@ -286,12 +289,12 @@
 
             </tr>
             <tr>
-                <th scope="row">Principal </th>
+                <th scope="row" id="principal1">Principal </th>
                 <td id="principal_">Xen education  works malir [000000]</td>
 
             </tr>
             <tr>
-                <th scope="row">Contractor</th>
+                <th scope="row" id="contractor1">Contractor</th>
                 <td id="contract_">burak enterprises [22763747]</td>
 
             </tr>
